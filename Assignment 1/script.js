@@ -5,7 +5,7 @@ function isPalindrome(str){
 
 }
 
-console.log('## Check if a String is a Palindrome');
+console.log('## 1. Check if a String is a Palindrome');
 console.log(isPalindrome('A man, a plan, a canal, Panama'));
 console.log(isPalindrome('Was it a car or a cat I saw?'));
 console.log(isPalindrome('Hello, World!'));
@@ -15,7 +15,7 @@ function reverseString(str){
     return str.split('').reverse().join('');
 }
 
-console.log('## Reverse a String');
+console.log('## 2. Reverse a String');
 console.log(reverseString('Hello, World!'));
 
 
@@ -45,7 +45,7 @@ function longestPalindromicSubstring(s) {
     return longest;
 }
 
-console.log('## Find the Longest Palindromic Substring')
+console.log('## 3. Find the Longest Palindromic Substring')
 console.log(longestPalindromicSubstring('babad'));
 console.log(longestPalindromicSubstring('cbbd'));
 console.log(longestPalindromicSubstring('ababa'));
@@ -57,7 +57,7 @@ function areAnagrams(str1, str2) {
     return str1.split('').sort().join('') === str2.split('').sort().join('');
 }
 
-console.log('## Check if Two Strings are Anagrams');
+console.log('## 4. Check if Two Strings are Anagrams');
 console.log(areAnagrams("listen", "silent"));
 console.log(areAnagrams("hello", "world"));
 
@@ -67,7 +67,7 @@ function removeDuplicates(str) {
     return [...new Set(str)].join('');
 }
 
-console.log('## Remove Duplicates from a String');
+console.log('## 5. Remove Duplicates from a String');
 console.log(removeDuplicates('programming'));
 console.log(removeDuplicates('Hello, World!'));
 console.log(removeDuplicates('aaaaa'));
@@ -95,7 +95,7 @@ function countPalindromes(str) {
     return uniquePalindromes.size;
 }
 
-console.log('## Count Palindromes in a String');
+console.log('## 6. Count Palindromes in a String');
 console.log(countPalindromes('ababa'));
 console.log(countPalindromes('racecar'));
 console.log(countPalindromes('aabb'));
@@ -119,7 +119,7 @@ function longestCommonPrefix(strs) {
     return prefix;
 }
 
-console.log('Longest Common Prefix')
+console.log('## 7. Longest Common Prefix')
 console.log(longestCommonPrefix(['flower' ,'flow', 'flight']))
 console.log(longestCommonPrefix(['dog' ,'racecar', 'car']))
 console.log(longestCommonPrefix(['interspecies' ,'interstellar', 'interstate']))
@@ -142,15 +142,9 @@ function isPalindromeCaseInsensitive(str) {
     return cleaned === cleaned.split('').reverse().join('');
 }
 
-console.log('Case Insensitive Palindrome')
+console.log('## 8. Case Insensitive Palindrome')
 console.log(isPalindromeCaseInsensitive('Aba'))
 console.log(isPalindromeCaseInsensitive('Racecar'))
 console.log(isPalindromeCaseInsensitive('Palindrome'))
 console.log(isPalindromeCaseInsensitive('Madam'))
 console.log(isPalindromeCaseInsensitive('Hello'))
-
-
-
-
-
-
