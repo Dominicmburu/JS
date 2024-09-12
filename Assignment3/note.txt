@@ -1,0 +1,9 @@
+// install the JSON server
+npm install -g json-server
+
+// Start the JSON server
+json-server --watch db.json
+
+npm install express
+npm install --save-dev nodemon
+
