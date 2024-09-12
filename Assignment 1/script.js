@@ -148,3 +148,5 @@ console.log(isPalindromeCaseInsensitive('Racecar'))
 console.log(isPalindromeCaseInsensitive('Palindrome'))
 console.log(isPalindromeCaseInsensitive('Madam'))
 console.log(isPalindromeCaseInsensitive('Hello'))
+
+
