@@ -54,6 +54,7 @@ const users = [
 
 
 
+
 const calculateSocialMediaStats = (users) => {
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
