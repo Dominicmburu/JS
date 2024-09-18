@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listing</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Event Listing</h1>
+        <div>
+            <label for="filter-price">Filter by Price:</label>
+            <select id="filter-price">
+                <option value="all">All</option>
+                <option value="low">Below 30</option>
+                <option value="mid">30-50</option>
+                <option value="high">Above 50</option>
+            </select>
+            <label for="filter-location">Filter by Location:</label>
+            <select id="filter-location">
+                <option value="all">All</option>
+                <option value="nyc">New York City</option>
+                <option value="sf">San Francisco</option>
+                <option value="la">Los Angeles</option>
+            </select>
+        </div>
+        <button id="sort-price">Sort by Price</button>
+        <button id="sort-date">Sort by Date</button>
+        <h2>Favorites</h2>
+        <div id="favorites-list"></div>
+    </header>
+    <main id="event-list"></main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
