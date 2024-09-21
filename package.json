@@ -2,7 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "description": "![image](https://github.com/user-attachments/assets/ad029de8-31bc-4904-a721-8a1fc7bb2e6a)",
-  "main": "Assignment 7/index.js",
+  "main": "Assignment 10/js/server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
